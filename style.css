@@ -1,0 +1,131 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #000;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+/* Header styles */
+header {
+  background: #111;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.logo-text {
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Section styles */
+.section {
+  padding: 80px 20px;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 18px;
+  color: #aaa;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #eee;
+}
+
+/* QR code styles */
+.qr-container {
+  margin-top: 30px;
+}
+
+.qr-img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Reels gallery */
+.reel-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.reel iframe {
+  width: 300px;
+  height: 533px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Footer styles */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #111;
+  color: #777;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
