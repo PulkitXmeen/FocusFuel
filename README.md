@@ -9,7 +9,6 @@
 
 ## 🔗 Let's Connect!
 
-- 🌐 [Portfolio Website](https://pulkitxmeen.github.io/FocusFuel/)*(optional)*
 - 👨‍💻 [GitHub](https://github.com/PulkitXmeen)
 - 💼 [LinkedIn](https://www.linkedin.com/in/pulkit-m-b5aab11b9)
 - 📷 [Instagram](https://instagram.com/pulkitxmeen)
